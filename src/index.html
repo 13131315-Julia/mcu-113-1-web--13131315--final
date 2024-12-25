@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="contain">
+      <nav id="header">
+        <div class="nav-logo">Portfolio</div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active-link">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a href="#book" class="nav-link">關於我</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skill" class="nav-link">技術</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">聯絡我</a>
+          </li>
+        </ul>
+        <div>
+          <button class="btn">下載履歷 <i class="fa-regular fa-file-pdf"></i></button>
+        </div>
+      </nav>
+      <main class="wrapper">
+        <section id="home" class="home-box">
+          <div class="home-text">
+            <div class="tag"><span>林筱紋(Julia)</span></div>
+            <div class="name">我是全端工程師</div>
+            <div class="subtitle">經驗豐富的全端開發人員，熱衷於創建視覺上令人驚嘆且用戶友好的網站。</div>
+            <div class="text-btn">
+              <button type="button" class="btn blue-btn">Hire Me</button>
+              <button type="button" class="btn">下載履歷 <i class="fa-regular fa-file-pdf"></i></button>
+            </div>
+            <div class="icons">
+              <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+              <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+              <div class="icon"><i class="fa-brands fa-github"></i></div>
+            </div>
+          </div>
+          <div class="home-image">
+            <div class="image">
+              <img src="./assets/images/J.jpg" alt="angular" />
+            </div>
+          </div>
+        </section>
+        <section id="book" class="section">
+          <div class="top-header">
+            <h1>關於我</h1>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, iusto.</span>
+          </div>
+          <div class="about-container">
+            <div class="introduce">
+              <div class="card">
+                <h3>自我介紹</h3>
+                <div>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit, non praesentium facere voluptatem natus eius
+                  soluta dolorum inventore harum obcaecati blanditiis, odio ex aliquid libero eos. Nulla, quisquam molestiae.
+                </div>
+              </div>
+            </div>
+            <div class="contents">
+              <div class="list">
+                <h3>教育程度</h3>
+                <div class="item">大溪高中 普通科 2024/06/03</div>
+                <div class="item">銘傳大學 資訊管理學系</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="skill" class="section">
+          <div class="top-header">
+            <h1>技術</h1>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, cupiditate.</span>
+          </div>
+          <div class="skill-container">
+            <div class="skill-item">
+              <span class="skill">
+                <span>電子商務管理</span>
+                <span>50%</span>
+              </span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill">
+                <span>團隊合作能力</span>
+                <span>100%</span>
+              </span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 100%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill">
+                <span>JAVA</span>
+                <span>60%</span>
+              </span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 60%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <span class="skill">
+                <span>英文能力</span>
+                <span>40%</span>
+              </span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 40%"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="section">
+          <div class="top-header">
+            <h1>聯絡我</h1>
+            <span>如果你有任何項目想法，請在此聯絡我</span>
+          </div>
+          <div class="contact-container">
+            <div class="info">
+              <div class="contact-info">
+                <h2>聯絡資訊</h2>
+                <div><i class="fa-regular fa-envelope"></i>Email: @gnail.com</div>
+                <div><i class="fa-solid fa-phone"></i>Tel: 09xx-xxx-xxx</div>
+              </div>
+            </div>
+            <div class="form">
+              <input type="text" placeholder="姓名" />
+              <input type="email" placeholder="信箱" />
+              <textarea placeholder="訊息"></textarea>
+              <button type="button" class="btn">Sand <i class="fa-regular fa-message"></i></button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <ul class="footer-menu">
+          <li class="menu-item">
+            <a href="#home">首頁</a>
+          </li>
+          <li class="menu-item">
+            <a href="#about">關於我</a>
+          </li>
+          <li class="menu-item">
+            <a href="skill">技術</a>
+          </li>
+          <li class="menu-item">
+            <a href="#shopping">聯絡我</a>
+          </li>
+        </ul>
+        <div class="footer-icons">
+          <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+          <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+          <div class="icon"><i class="fa-brands fa-github"></i></div>
+        </div>
+        <div class="bottom-footer">Copyright &copy; 2024</div>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
